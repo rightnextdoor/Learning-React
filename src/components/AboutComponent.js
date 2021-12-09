@@ -86,8 +86,8 @@ function RendrLeader({leader}){
                 </div>
                 <div className="col-12 col-md-8 m-1">
                     <Card>
-                        <CardHeader>{leader.name}</CardHeader>
-                        <CardBody>{leader.designation}</CardBody>
+                        <CardHeader><b><h3>{leader.name}</h3></b></CardHeader>
+                        <CardBody><h5>{leader.designation}</h5></CardBody>
                         <CardBody>{leader.description}</CardBody>
                     </Card>
                 </div>
